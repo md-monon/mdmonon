@@ -1,4 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+
+    <style>
+    .hero{
+        height:100vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        color:white;
+        background:linear-gradient(-45deg,#0f172a,#1e293b,#2563eb,#06b6d4);
+        background-size:400% 400%;
+        animation:gradient 10s ease infinite;
+    }
+
+    @keyframes gradient{
+        0%{background-position:0% 50%;}
+        50%{background-position:100% 50%;}
+        100%{background-position:0% 50%;}
+    }
+    </style>
+
+</head>
+<body>
+
 <section class="hero">
     <h1>Hello, I'm Monon</h1>
-    <p>Student • Tech Enthusiast • Future Developer</p>
+    <p>Welcome to my website</p>
 </section>
+
+</body>
+</html>
